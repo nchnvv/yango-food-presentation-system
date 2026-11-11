@@ -63,3 +63,5 @@
 | Светлый | [logo-light.svg](assets/logo-light.svg) | [logo-stacked.svg](assets/logo-stacked.svg) |
 | Красный | [logo-red.svg](assets/logo-red.svg) | [logo-red-stacked.svg](assets/logo-red-stacked.svg) |
 | Darkberry | [logo-dark.svg](assets/logo-dark.svg) | [logo-dark-stacked.svg](assets/logo-dark-stacked.svg) |
+
+[Варианты по объёму информации](LAYOUTS.md#варианты-по-объёму-информации) помогают выбрать композицию под бриф.
