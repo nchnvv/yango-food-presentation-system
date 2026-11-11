@@ -11,7 +11,8 @@
 | Раздел | Содержимое |
 | --- | --- |
 | [Основы](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=4-59) | Палитра, типографика, сетка, интервалы |
-| [Макеты](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=4-169) и [дополнительные композиции](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=20-780) | 26 редактируемых слайдов |
+| [Макеты](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=4-169) и [дополнительные композиции](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=20-780) | 32 редактируемых слайда |
+| [Каталог 32 макетов](LAYOUTS.md) | Прямые ссылки на компоненты, назначение и страницы PDF |
 | [Данные](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=13-575) | Графики, легенды, таблицы |
 | [Акценты](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=21-934) | Плашки, полосы вывода, тезисы и сравнения |
 | [Фирменный гайд](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=27-5368) | Правила работы с цветом, логотипом, спиралью и Nom-Nom |
