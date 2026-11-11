@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Yango Food — проверка веб-шрифтов</title>
+<style>
+@import url('./fonts.css');
+*{box-sizing:border-box}body{margin:0;background:#1c121f;color:#fff;font-family:"Yango Text",Arial,sans-serif;padding:3vw}main{container-type:inline-size;max-width:1280px;margin:auto}.slide{aspect-ratio:16/9;background:#f8f0ea;color:#1c121f;display:grid;grid-template-columns:1.35fr 1fr;align-items:center;gap:4cqw;padding:5cqw}.label{font-size:2cqw;font-weight:500}h1,.metric strong{font:900 7cqw/.9 "Yango Headline",Impact,sans-serif;margin:2cqw 0}.slide p{font-size:2.35cqw;margin:1.5cqw 0}.metric{background:#ff1a1a;color:white;padding:4cqw;border-radius:2cqw}.metric strong{display:block;font-size:11cqw}.status{margin-top:1rem;font-size:1rem}@media print{@page{size:13.333in 7.5in;margin:0}body{padding:0;print-color-adjust:exact;-webkit-print-color-adjust:exact}.status{display:none}}
+</style>
+<main>
+<section class="slide" aria-label="Пример слайда Yango Food">
+<div><span class="label">YANGO FOOD</span><h1>ЗАКАЗЫ<br>ВЫШЕ ПЛАНА</h1><p>Результаты мая</p></div>
+<div class="metric"><strong>+8 тыс.</strong><p>91 тыс. заказов при плане 83 тыс.</p></div>
+</section>
+<p class="status" role="status">Проверяем загрузку шрифтов…</p>
+</main>
+<script>
+const status = document.querySelector('.status');
+const faces = [
+  ['Yango Group Headline Heavy', '900 48px "Yango Headline"'],
+  ['Yango Group Text Regular', '400 24px "Yango Text"'],
+  ['Yango Group Text Medium', '500 24px "Yango Text"'],
+];
+Promise.all(faces.map(async ([name, query]) => {
+  try {
+    const loaded = await document.fonts.load(query, 'Заказы выше плана 123');
+    return loaded.some(face => face.status === 'loaded') ? null : name;
+  } catch {
+    return name;
+  }
+})).then(results => {
+  const failed = results.filter(Boolean);
+  status.textContent = failed.length
+    ? 'Используются запасные шрифты для ' + failed.join(', ') + '.'
+    : 'Все три начертания Yango загружены с сервера.';
+});
+</script>
+</html>
