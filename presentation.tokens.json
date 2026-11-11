@@ -1,0 +1,426 @@
+{
+  "color": {
+    "brand": {
+      "red": {
+        "$type": "color",
+        "$value": "#FF1A1A"
+      },
+      "darkberry": {
+        "$type": "color",
+        "$value": "#1C121F"
+      },
+      "white": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "beige": {
+        "$type": "color",
+        "$value": "#E6CEBF"
+      },
+      "cream": {
+        "$type": "color",
+        "$value": "#F8F0EA"
+      }
+    },
+    "neutral": {
+      "surface": {
+        "$type": "color",
+        "$value": "#F2F2F2"
+      },
+      "divider": {
+        "$type": "color",
+        "$value": "#D9D9D9"
+      },
+      "chartBaseline": {
+        "$type": "color",
+        "$value": "#BFBFBF"
+      },
+      "textSecondary": {
+        "$type": "color",
+        "$value": "#767676"
+      }
+    },
+    "role": {
+      "canvas": {
+        "$type": "color",
+        "$value": "{color.brand.white}"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "{color.brand.red}"
+      },
+      "inverseSurface": {
+        "$type": "color",
+        "$value": "{color.brand.darkberry}"
+      },
+      "context": {
+        "$type": "color",
+        "$value": "{color.brand.beige}"
+      },
+      "primaryText": {
+        "$type": "color",
+        "$value": "{color.brand.darkberry}"
+      },
+      "inverseText": {
+        "$type": "color",
+        "$value": "{color.brand.white}"
+      },
+      "chartPrimary": {
+        "$type": "color",
+        "$value": "{color.brand.red}"
+      },
+      "chartComparison": {
+        "$type": "color",
+        "$value": "{color.neutral.chartBaseline}"
+      }
+    }
+  },
+  "slide": {
+    "width": {
+      "$type": "dimension",
+      "$value": "1920px"
+    },
+    "height": {
+      "$type": "dimension",
+      "$value": "1080px"
+    },
+    "columns": {
+      "$type": "number",
+      "$value": 12
+    },
+    "margin": {
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "gutter": {
+      "$type": "dimension",
+      "$value": "24px"
+    }
+  },
+  "spacing": {
+    "8": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "16": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "24": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "32": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "48": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "64": {
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "96": {
+      "$type": "dimension",
+      "$value": "96px"
+    }
+  },
+  "radius": {
+    "16": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "24": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "32": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "999": {
+      "$type": "dimension",
+      "$value": "999px"
+    }
+  },
+  "typography": {
+    "display": {
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "Yango Group Headline"
+      },
+      "fontStyle": {
+        "$type": "string",
+        "$value": "Heavy"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "208px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": 0.85
+      },
+      "trackingPercent": {
+        "$type": "number",
+        "$value": 0
+      }
+    },
+    "title": {
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "Yango Group Headline"
+      },
+      "fontStyle": {
+        "$type": "string",
+        "$value": "Heavy"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "88px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": 0.85
+      },
+      "trackingPercent": {
+        "$type": "number",
+        "$value": 0
+      }
+    },
+    "heading": {
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "Yango Group Headline"
+      },
+      "fontStyle": {
+        "$type": "string",
+        "$value": "Heavy"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "60px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": 0.88
+      },
+      "trackingPercent": {
+        "$type": "number",
+        "$value": 0
+      }
+    },
+    "subheading": {
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "Yango Group Headline"
+      },
+      "fontStyle": {
+        "$type": "string",
+        "$value": "Heavy"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "42px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": 0.9
+      },
+      "trackingPercent": {
+        "$type": "number",
+        "$value": 0
+      }
+    },
+    "metric": {
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "Yango Group Headline"
+      },
+      "fontStyle": {
+        "$type": "string",
+        "$value": "Heavy"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "132px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": 0.85
+      },
+      "trackingPercent": {
+        "$type": "number",
+        "$value": 0
+      }
+    },
+    "lead": {
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "Yango Group Text"
+      },
+      "fontStyle": {
+        "$type": "string",
+        "$value": "Medium"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "40px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": 1.0
+      },
+      "trackingPercent": {
+        "$type": "number",
+        "$value": -3
+      }
+    },
+    "body": {
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "Yango Group Text"
+      },
+      "fontStyle": {
+        "$type": "string",
+        "$value": "Regular"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "28px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": 1.26
+      },
+      "trackingPercent": {
+        "$type": "number",
+        "$value": 0
+      }
+    },
+    "label": {
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "Yango Group Text"
+      },
+      "fontStyle": {
+        "$type": "string",
+        "$value": "Medium"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": 1.0
+      },
+      "trackingPercent": {
+        "$type": "number",
+        "$value": -3
+      }
+    },
+    "caption": {
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "Yango Group Text"
+      },
+      "fontStyle": {
+        "$type": "string",
+        "$value": "Regular"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": 1.2
+      },
+      "trackingPercent": {
+        "$type": "number",
+        "$value": 0
+      }
+    },
+    "data": {
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "Yango Group Text"
+      },
+      "fontStyle": {
+        "$type": "string",
+        "$value": "Medium"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": 1.15
+      },
+      "trackingPercent": {
+        "$type": "number",
+        "$value": 0
+      }
+    }
+  },
+  "pill": {
+    "label": {
+      "horizontalPadding": {
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "verticalPadding": {
+        "$type": "dimension",
+        "$value": "10px"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.999}"
+      },
+      "textStyle": {
+        "$type": "string",
+        "$value": "label"
+      }
+    },
+    "metric": {
+      "horizontalPadding": {
+        "$type": "dimension",
+        "$value": "28px"
+      },
+      "verticalPadding": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.999}"
+      },
+      "textStyle": {
+        "$type": "string",
+        "$value": "subheading"
+      }
+    },
+    "large": {
+      "horizontalPadding": {
+        "$type": "dimension",
+        "$value": "36px"
+      },
+      "verticalPadding": {
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.999}"
+      },
+      "textStyle": {
+        "$type": "string",
+        "$value": "heading"
+      }
+    }
+  }
+}
