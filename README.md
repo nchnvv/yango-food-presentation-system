@@ -14,7 +14,7 @@
 | [Макеты](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=4-169) и [дополнительные композиции](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=20-780) | 26 редактируемых слайдов |
 | [Данные](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=13-575) | Графики, легенды, таблицы |
 | [Акценты](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=21-934) | Плашки, полосы вывода, тезисы и сравнения |
-| [Фирменный гайд](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=2-4532) | Правила работы с цветом, логотипом, спиралью и Nom-Nom |
+| [Фирменный гайд](https://www.figma.com/design/5I3PfVEviWzfy0kNzT1wmt/Untitled?node-id=27-5368) | Правила работы с цветом, логотипом, спиралью и Nom-Nom |
 
 ## Сборка слайда
 
@@ -54,3 +54,11 @@
 ## Веб-шрифты Yango
 
 [fonts.css](fonts.css) подключает Headline Heavy и Text Regular / Medium с CDN Yango. [Тестовый слайд](web-font-demo.html) проверяет их загрузку в браузере. Для проверки скачайте оба файла в одну папку и откройте HTML. Готовый запрос для Codex приведён в [инструкции по сборке](GOOGLE-SLIDES.md).
+
+## Логотипы по цвету фона
+
+| Фон под логотипом | Горизонтальный | Вертикальный |
+| --- | --- | --- |
+| Светлый | [logo-light.svg](assets/logo-light.svg) | [logo-stacked.svg](assets/logo-stacked.svg) |
+| Красный | [logo-red.svg](assets/logo-red.svg) | [logo-red-stacked.svg](assets/logo-red-stacked.svg) |
+| Darkberry | [logo-dark.svg](assets/logo-dark.svg) | [logo-dark-stacked.svg](assets/logo-dark-stacked.svg) |
